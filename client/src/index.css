@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    padding: 60px 5px 60px 5px;
+}
+
+.container{
+    max-width: unset;
+    border: lightgrey;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.card-header{
+    margin-bottom: 20px;
+    background-color: #343a40!important;
+    color: white;
+    font-size: xx-large;
+}
+
+.card-title{
+    padding-left: 20px;
+}
+
+button{
+    margin: 20px 20px 10px 20px;
+}
+
+nav{
+    padding: 10px 0px 10px 0px;
+}
+
+#records{
+    margin: 20px 20px 20px 20px;
+}
+
+li{
+    margin-top: 5px;
+}
