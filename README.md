@@ -14,11 +14,18 @@ Clone this git repository and follow these steps:
 ```
 truffle migrate --reset
 ```
-2. Go to 'client' directory by following command.
+2. Go to 'client' directory by following command and install dependencies.
 
 ```
 cd client/
+npm install
 ```
+  If you don't have web3 installed, install it with following command.
+  
+  ```
+  npm install web3 --save
+  ```
+  
   Make sure you have imported accounts from Ganache.
 
   By default first account in Ganache is an Authorised Account which can be used to authorise new accounts.
